@@ -1,0 +1,93 @@
+{
+  "id": "redux-series-form-spells",
+  "title": "Redux Series: Form Spells",
+  "version": "1.0.0",
+  "manifest": "https://github.com/Davidomcg/redux-series-form-spells/releases/latest/download/module.json",
+  "download": "https://github.com/Davidomcg/redux-series-form-spells/releases/download/1.0.0/module.zip",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "description": "<p><strong>Unleash the Beast Within – Redux Series: Form Spells</strong></p><p>Battle forms in Pathfinder 2e are powerful tools within a spellcaster's kit but what if they could be more fleshed out and even a little bit more powerful? What if, when a druid enters its untamed form, it can charge forward or Strike a creature in the midst of their transformation? What if you can rise up from the ashes of your death when in the form of a Phoenix? What if your favourite form could be heightened to rank 10?</p><p><strong>Redux Series: Form Spells</strong> reimagines battle form spells with modified math for each of the player core 1 &amp; 2 spells, with various sub forms having different sizes and their own special abilities. Every spell now heightens all the way to rank 10 and some even allowing you to cast spells!</p><p>All this plus new feats, focus spells and a rework for the Untamed Druid order so it can work seamlessly with all these changes. Do you wish to scare your enemies with a frightening roar as a Tyrannosaur or crush a creature in your coils as a Serpent? Now you can.</p><p>Nature is scary. Your battle forms should be too.</p>",
+  "authors": [
+    {
+      "name": "David McGregor",
+      "discord": "davidomcg",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "canUpload": true
+  },
+  "packs": [
+    {
+      "name": "form-spells",
+      "label": "Form Spells",
+      "path": "packs/form-spells",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    },
+    {
+      "name": "effects",
+      "label": "Effects",
+      "path": "packs/effects",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    },
+    {
+      "name": "untamed-druid",
+      "label": "Untamed Druid",
+      "path": "packs/untamed-druid",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    }
+  ],
+  "packFolders": [
+   {
+	  "name": "Redux Series: Form Spells",
+	  "sorting": "m",
+	  "packs": [
+	  "form-spells",
+	  "effects",
+	  "untamed-druid"
+	  ]
+   }
+  ],
+  "flags": {
+	  "redux-series-form-spells": {
+		  "pf2e-homebrew": {
+			  "spellTraits": {
+				  "Wild": {
+            "label": "Wild",
+            "description": "Wild spells were created by great shapeshifters to allow the use of their magic while in a bestial form. Spells with the Wild trait can be cast while you are in a battle form."
+          }
+			  }
+	  }
+  }
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {
+        "minimum": "7.3.1"}
+      }
+    ]
+  }
+}
