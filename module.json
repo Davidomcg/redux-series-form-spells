@@ -1,7 +1,7 @@
 {
   "id": "redux-series-form-spells",
   "title": "Redux Series: Form Spells",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "manifest": "https://github.com/Davidomcg/redux-series-form-spells/releases/latest/download/module.json",
   "download": "https://github.com/Davidomcg/redux-series-form-spells/releases/download/1.0.0/module.zip",
   "compatibility": {
